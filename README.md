@@ -2,7 +2,7 @@
 
 Collection of classes to assist with units of time.
 
-[![Build Status](https://travis-ci.org/subjective-php/durations.svg?branch=master)](https://travis-ci.org/subjective-php/durations)
+[![Build Status](https://travis-ci.com/subjective-php/durations.svg?branch=master)](https://travis-ci.com/subjective-php/durations)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/subjective-php/durations/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/subjective-php/durations/?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/subjective-php/durations/badge.svg?branch=master)](https://coveralls.io/github/subjective-php/durations?branch=master)
 
