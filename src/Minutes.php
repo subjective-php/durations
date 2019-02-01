@@ -35,9 +35,9 @@ abstract class Minutes
     const YEAR_IN_MINUTES = self::DAY_IN_MINUTES * 365;
 
     /**
-     * Returns the given number of hours represented in seconds.
+     * Returns the given number of hours represented in minutes.
      *
-     * @param int $hours The value to covert to seconds.
+     * @param int $hours The value to covert to minutes.
      *
      * @return int
      */
@@ -47,9 +47,9 @@ abstract class Minutes
     }
 
     /**
-     * Returns the given number of days represented in seconds.
+     * Returns the given number of days represented in minutes.
      *
-     * @param int $days The value to covert to seconds.
+     * @param int $days The value to covert to minutes.
      *
      * @return int
      */
@@ -59,9 +59,9 @@ abstract class Minutes
     }
 
     /**
-     * Returns the given number of weeks represented in seconds.
+     * Returns the given number of weeks represented in minutes.
      *
-     * @param int $weeks The value to covert to seconds.
+     * @param int $weeks The value to covert to minutes.
      *
      * @return int
      */
@@ -71,9 +71,9 @@ abstract class Minutes
     }
 
     /**
-     * Returns the given number of months represented in seconds.
+     * Returns the given number of months represented in minutes.
      *
-     * @param int $months The value to covert to seconds.
+     * @param int $months The value to covert to minutes.
      *
      * @return int
      */
@@ -83,9 +83,9 @@ abstract class Minutes
     }
 
     /**
-     * Returns the given number of years represented in seconds.
+     * Returns the given number of years represented in minutes.
      *
-     * @param int $years The value to covert to seconds.
+     * @param int $years The value to covert to minutes.
      *
      * @return int
      */
