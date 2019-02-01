@@ -1,0 +1,26 @@
+{
+    "name": "subjective-php/durations",
+    "description": "Collection of classes to assist with units of time.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "chadicus/coding-standard": "^1.7",
+        "php-coveralls/php-coveralls": "^2.1",
+        "phpunit/phpunit": "^6.5"
+    },
+    "config" : {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "SubjectivePHP\\Durations\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SubjectivePHPTest\\Durations\\": "tests"
+        }
+    }
+}
