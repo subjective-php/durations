@@ -40,7 +40,7 @@ abstract class Seconds
     const YEAR_IN_SECONDS = self::DAY_IN_SECONDS * 365;
 
     /**
-     * Returns the given number of minutes represented in minutes.
+     * Returns the given number of minutes represented in seconds.
      *
      * @param int $minutes The value to covert to minutes.
      *
@@ -52,9 +52,9 @@ abstract class Seconds
     }
 
     /**
-     * Returns the given number of hours represented in minutes.
+     * Returns the given number of hours represented in seconds.
      *
-     * @param int $hours The value to covert to minutes.
+     * @param int $hours The value to covert to seconds.
      *
      * @return int
      */
@@ -64,9 +64,9 @@ abstract class Seconds
     }
 
     /**
-     * Returns the given number of days represented in minutes.
+     * Returns the given number of days represented in seconds.
      *
-     * @param int $days The value to covert to minutes.
+     * @param int $days The value to covert to seconds.
      *
      * @return int
      */
@@ -76,9 +76,9 @@ abstract class Seconds
     }
 
     /**
-     * Returns the given number of weeks represented in minutes.
+     * Returns the given number of weeks represented in seconds.
      *
-     * @param int $weeks The value to covert to minutes.
+     * @param int $weeks The value to covert to seconds.
      *
      * @return int
      */
@@ -88,9 +88,9 @@ abstract class Seconds
     }
 
     /**
-     * Returns the given number of months represented in minutes.
+     * Returns the given number of months represented in seconds.
      *
-     * @param int $months The value to covert to minutes.
+     * @param int $months The value to covert to seconds.
      *
      * @return int
      */
@@ -100,9 +100,9 @@ abstract class Seconds
     }
 
     /**
-     * Returns the given number of years represented in minutes.
+     * Returns the given number of years represented in seconds.
      *
-     * @param int $years The value to covert to minutes.
+     * @param int $years The value to covert to seconds.
      *
      * @return int
      */
