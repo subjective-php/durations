@@ -22,5 +22,9 @@
         "psr-4": {
             "SubjectivePHPTest\\Durations\\": "tests"
         }
+    },
+    "scripts": {
+        "lint": "vendor/bin/phpcs",
+        "test": "vendor/bin/phpunit"
     }
 }
