@@ -4,6 +4,11 @@ filter:
 before_commands:
     - 'composer install --prefer-source'
 build:
+    nodes:
+        analysis:
+            tests:
+                override:
+                    - php-scrutinizer-run
     tests:
         override:
             - phpcs-run --standard=./vendor/chadicus/coding-standard/Chadicus/ruleset.xml
